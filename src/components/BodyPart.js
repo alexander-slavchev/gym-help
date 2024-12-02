@@ -10,7 +10,7 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
       type="button"
       alignItems="center"
       justifyContent="center"
-      className="bodypart-card"
+      className="bodyPart-card"
       sx={{
           borderTop: bodyPart === item ? '4px solid #ff2625':  '',
           backgroundColor: '#fff',
@@ -19,10 +19,10 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
           height: '280px',
           cursor: 'pointer',
           gap: '47px'
-      }}
-      
+      }} 
     >
-      <imp src={Icon} alt="dumbbell" styles={{width: '40px', height: '40px'}}/>
+      <imp src={Icon} alt="dumbbell" 
+      styles={{width: '40px', height: '40px'}}/>
     </Stack>
   )
 }
